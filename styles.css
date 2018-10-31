@@ -1,7 +1,7 @@
 /* //---container---// */
 .container1{
 width: 100%;
-border:1px;
+border:1px black;
 }
 .row{
     width:100%;
@@ -42,10 +42,30 @@ border:1px;
 body{
     width:960px;
     margin:auto;
+    background-image:url(./image/leaves.png);
 }
 
 /* --index card-- */
 .card {
     width:100%;
     margin-top: 10px;
+}
+
+.card-header{
+    border-bottom:0px;
+    background-color:#fff;
+    color: #4aaaa5;
+}
+
+/* *--end index card--* */
+
+/* *--Form--* */
+form{
+    margin-top:5px;
+    background-color:#fff;
+    padding:5px;
+}
+h2{
+    color: #4aaaa5;
+    padding:5px;
 }
