@@ -6,6 +6,8 @@ border:1px black;
 .row{
     width:100%;
     margin:0px;
+    background-color: white;
+
 }
 
 .nav{
@@ -68,4 +70,33 @@ form{
 h2{
     color: #4aaaa5;
     padding:5px;
+}
+/* *--End Form--* */
+
+.card-img-top{
+position: relative;
+}
+
+
+.card-title{
+    margin-bottom: .75rem;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.card-body{
+    padding: 0px;
+}
+
+.card-footer{
+    background-color:#666666;
+    color:#777777;
+    text-align: center;
+    Margin-top:250px;
 }
